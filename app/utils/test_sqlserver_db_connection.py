@@ -1,6 +1,7 @@
 from sqlalchemy import text
 from sqlalchemy.exc import SQLAlchemyError
 
+
 def test_connection(engine):
     try:
         # Test the connection by executing a simple query
